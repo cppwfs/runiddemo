@@ -1,0 +1,19 @@
+==  Introduction
+
+This project launches a batch job with a runIdIncrementer that fails every execution
+
+== Build the project
+
+=== To build the demo project
+
+```
+./mvnw clean package -DskipTests
+```
+
+=== To build the docker image
+```
+./mvnw -DskipTests -U package dockerfile:build
+```
+
+
+ 
